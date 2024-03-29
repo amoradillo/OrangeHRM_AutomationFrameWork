@@ -10,7 +10,7 @@ Automation Flow covers the following processes:
 5. OrangeHRM Employee Performance Page
 6. Orange HRM PIM Page
 
-#Frameworks and Tools Used:
+# Frameworks and Tools Used:
    • Selenium WebDriver - a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
    • TestNG (Test Unit Framework)   - a testing framework that is inspired by JUnit and NUnit but introduces some new functionalities that make it more powerful and easy to use. All the functional tests are created using TestNg @Test annotations in the src/test/java 
      folder.
