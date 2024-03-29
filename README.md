@@ -29,7 +29,7 @@ Automation Flow covers the following processes:
 
 ## How to Run the tests
 
-## Pre-requisite:
+# Pre-requisite:
     * JDK 8 and above.
     * Chrome browser - latest version installed.
     * Maven is installed in the machine and configured properly.
