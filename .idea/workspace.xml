@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90970e4b-d9b9-4177-bfa4-45d33fc2c8e9" name="Changes" comment="" />
+    <list default="true" id="90970e4b-d9b9-4177-bfa4-45d33fc2c8e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/orangehrm/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/orangehrm/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/orangehrm/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/orangehrm/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/orangehrm/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/orangehrm/testComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/orangehrm/testComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/orangehrm/testscripts/orangehrmlogintest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/orangehrm/testscripts/orangehrmlogintest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,23 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/USER/Documents/Selenium/OrangeHRMAutomationFramework/testsuites/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.orangehrmlogintest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.orangehrmlogintest (2).executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.orangehrmlogintest (3).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.orangehrmlogintest (4).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.orangehrmlogintest.LoginMultipleUsers.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.orangehrmlogintest.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/USER/Documents/Selenium/OrangeHRMAutomationFramework/testsuites/testng.xml.executor": "Run",
+    "TestNG.orangehrmlogintest (1).executor": "Run",
+    "TestNG.orangehrmlogintest (2).executor": "Debug",
+    "TestNG.orangehrmlogintest (3).executor": "Run",
+    "TestNG.orangehrmlogintest (4).executor": "Run",
+    "TestNG.orangehrmlogintest.LoginMultipleUsers (1).executor": "Run",
+    "TestNG.orangehrmlogintest.LoginMultipleUsers (2).executor": "Run",
+    "TestNG.orangehrmlogintest.LoginMultipleUsers (3).executor": "Run",
+    "TestNG.orangehrmlogintest.LoginMultipleUsers.executor": "Run",
+    "TestNG.orangehrmlogintest.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\USER\Documents\Selenium\OrangeHRMAutomationFramework" />
@@ -56,57 +66,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.orangehrmlogintest.LoginMultipleUsers">
-    <configuration name="orangehrmlogintest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHRMAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
-      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="orangehrmlogintest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHRMAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
-      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="orangehrmlogintest (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OrangeHRMAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
-      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="orangehrmlogintest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OrangeHRMAutomationFramework" />
       <extension name="coverage">
@@ -118,6 +77,60 @@
       <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
       <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orangehrmlogintest.LoginMultipleUsers (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
+      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
+      <option name="METHOD_NAME" value="LoginMultipleUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orangehrmlogintest.LoginMultipleUsers (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
+      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
+      <option name="METHOD_NAME" value="LoginMultipleUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="orangehrmlogintest.LoginMultipleUsers (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OrangeHRMAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.orangehrm.testscripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.orangehrm.testscripts" />
+      <option name="MAIN_CLASS_NAME" value="org.orangehrm.testscripts.orangehrmlogintest" />
+      <option name="METHOD_NAME" value="LoginMultipleUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.orangehrmlogintest.LoginMultipleUsers" />
+        <item itemvalue="TestNG.orangehrmlogintest.LoginMultipleUsers (3)" />
+        <item itemvalue="TestNG.orangehrmlogintest.LoginMultipleUsers (2)" />
+        <item itemvalue="TestNG.orangehrmlogintest.LoginMultipleUsers (1)" />
         <item itemvalue="TestNG.orangehrmlogintest" />
-        <item itemvalue="TestNG.orangehrmlogintest (4)" />
-        <item itemvalue="TestNG.orangehrmlogintest (3)" />
-        <item itemvalue="TestNG.orangehrmlogintest (2)" />
       </list>
     </recent_temporary>
   </component>

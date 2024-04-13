@@ -2,6 +2,7 @@ package org.orangehrm.testscripts;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.orangehrm.pages.DashboardPage;
 import org.orangehrm.pages.LoginPage;
 import org.orangehrm.testComponents.BaseTest;
 import org.testng.annotations.BeforeMethod;
@@ -21,6 +22,8 @@ public class orangehrmlogintest extends BaseTest
       public void LoginMultipleUsers(HashMap<String,String> input) throws  InterruptedException
       {
             loginPage.validLogin(input.get("email"), input.get("password"));
+
+
       }
 
       @DataProvider(name = "getData")

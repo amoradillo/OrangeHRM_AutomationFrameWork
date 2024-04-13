@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.orangehrm.pages.DashboardPage;
 import org.orangehrm.pages.LoginPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -25,6 +26,7 @@ import java.util.Properties;
 public class BaseTest {
 
      public WebDriver driver;
+     public DashboardPage dashboardPage;
      public LoginPage loginPage;
 
     public WebDriver initializeDriver() throws IOException {
@@ -87,14 +89,15 @@ public class BaseTest {
          loginPage = new LoginPage(driver);
          loginPage.goToURL();
          return loginPage;
+
      }
 
 
-     @AfterMethod
-    public void quitDriver()
-     {
-           driver.quit();
-     }
+//     @AfterMethod
+//    public void quitDriver()
+//     {
+//           driver.quit();
+//     }
 
 
 

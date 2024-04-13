@@ -1,5 +1,6 @@
 package org.orangehrm.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,13 +20,13 @@ public class LoginPage extends BasePage {
 
 
     @FindBy(name = "username")
-    private WebElement loginUsername;
+     WebElement loginUsername;
 
     @FindBy(name = "password")
-    private WebElement loginPassword;
+     WebElement loginPassword;
 
-    @FindBy(css = "button.orangehrm-login-button")
-    private WebElement loginButton;
+    @FindBy(css = "[type=submit]")
+    WebElement loginButton;
     
 
     public void validLogin(String email, String password)
@@ -33,6 +34,8 @@ public class LoginPage extends BasePage {
         loginUsername.sendKeys(email);
         loginPassword.sendKeys(password);
         loginButton.click();
+//        DashboardPage dashboardPage = new DashboardPage(driver);
+//        return dashboardPage;
     }
     public void goToURL()
     {
