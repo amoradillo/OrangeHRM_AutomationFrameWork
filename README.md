@@ -6,9 +6,6 @@ Automation Flow covers the following processes:
 1. OrangeHRM Login
 2. OrangeHRM MyInfoPage
 3. OrangeHRM Recruitment Page
-4. OrangeHRM Admin Page
-5. OrangeHRM Employee Performance Page
-6. Orange HRM PIM Page
 
 # Frameworks and Tools Used:
    * Selenium WebDriver - a free (open-source) automated testing framework used to validate web applications across different browsers and platforms.
